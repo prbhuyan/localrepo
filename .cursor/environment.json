@@ -1,0 +1,12 @@
+{
+  "name": "localrepo",
+  "user": "ubuntu",
+  "install": "true",
+  "start": "bash /workspace/.cursor/start.sh",
+  "ports": [
+    {
+      "name": "static-site",
+      "port": 8080
+    }
+  ]
+}
